@@ -9,7 +9,6 @@ const app = express();
 
 // Configuration
 const PORT = 3000;
-const HOST = "192.168.2.115";
 const API_SERVICE_URL = "https://apicdn.vimai.io";
 
 function writeToken(jsonData) {
@@ -42,7 +41,7 @@ function readToken() {
 
 function getToken() {
   return axios
-    .post(HOST, {
+    .post(API_SERVICE_URL, {
       username: "0359512974",
       password: "12345678",
     })
@@ -54,7 +53,7 @@ function getToken() {
       };
       writeToken(token);
     })
-    .catch((err) => console.log(err));
+    .catch((err) => console.log("Error in get token", err));
 }
 
 function isTokenValid(expiry) {
@@ -100,6 +99,6 @@ app.use(
 );
 
 // Start Proxy
-app.listen(PORT, HOST, () => {
-  console.log(`Starting Proxy at http://${HOST}:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server run on port :${PORT}`);
 });
