@@ -1,0 +1,80 @@
+{
+  "email": "user_0359512974@unknown.email",
+  "email_confirmed": false,
+  "origin_email": "user_0359512974@unknown.email",
+  "account_ref_code": "N3PTCZ2",
+  "mobile": "359512974",
+  "id": "369efaf7-e914-4c92-b210-6b25487055d1",
+  "first_name": "z",
+  "last_name": null,
+  "dob": "1981-01-01",
+  "gender": null,
+  "address": null,
+  "avatar": null,
+  "phone_number": "359512974",
+  "referral_code": null,
+  "linked_login_methods": [
+    "email",
+    "mobile"
+  ],
+  "created_at": "2022-12-15T09:53:36Z",
+  "updated_at": "2022-12-23T14:40:32Z",
+  "subscription_plan_info": {
+    "id": "price_1JmCKED7t6sUYarhU6dMEbpA",
+    "slug": "",
+    "cost": "700.00",
+    "unit": "month",
+    "currency": "vnd",
+    "description": "",
+    "name": "SCTVOnline VIP",
+    "expired_time": "2023-01-18T09:58:02.977723Z",
+    "is_cancelled": true,
+    "is_auto_renew": false,
+    "subscription_status": "active",
+    "has_device": false,
+    "is_rent": false,
+    "trial_end": null,
+    "trial_days_remaining": 0,
+    "max_num_devices": 0,
+    "discount_amount": 0.0,
+    "subscription_from": "web",
+    "subscription_type": "free",
+    "start_time": "2022-12-19T09:58:02.982646Z",
+    "payment_method": "momo",
+    "end_time": "2023-01-18T09:58:02.977723Z"
+  },
+  "has_subscription": true,
+  "invoices_history_info": [
+    {
+      "canceled_at": null,
+      "cancel_description": "",
+      "invoices": [
+        {
+          "invoiceitems": [
+            {
+              "description": "Subscription SCTVOnline-VIP from 12-19-2022 to 01-18-2023",
+              "purchased_box_count": 0,
+              "total_before_discount": 70000.0,
+              "total": 70000.0,
+              "created_at": "12-19-2022",
+              "payment_content_infors": null,
+              "currency": "vnd"
+            }
+          ],
+          "refunds": []
+        }
+      ],
+      "expired_time": null,
+      "discount_type": null
+    }
+  ],
+  "applied_coupon_for_cancel_subscription": false,
+  "current_payment_provider": "momo",
+  "parental_control_status": 0,
+  "remaining_available_trial_days": 30,
+  "has_trial_days_for_next_subscription": true,
+  "last_login": "2022-12-15T09:53:36.903021Z",
+  "subscription_metadata": {
+    "subscription_icon": "http://vimai-demo-content-upload.s3.ap-southeast-1.amazonaws.com/tenants/odx/icons/basic_icon.png"
+  }
+}
